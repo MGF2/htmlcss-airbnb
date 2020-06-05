@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  border:0;
+  box-sizing: border-box;
+}
+.container {
+  height: 90vh;
+  background: url(https://images.pexels.com/photos/1797161/pexels-photo-1797161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  margin: 30px 30px;
+}
+.titolo {
+  color: white;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 60px;
+  text-shadow: 5px 5px #333333;
+  background-color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+}
+.overlay {
+  position: absolute;
+  top:0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(100, 50, 100, 0.4);
+}
+.container.londra {
+  background: url(https://images.pexels.com/photos/3071145/pexels-photo-3071145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+}
+.container.toronto {
+  background: url(https://images.pexels.com/photos/2773226/pexels-photo-2773226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+}
